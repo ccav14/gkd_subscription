@@ -3,7 +3,6 @@ import { batchImportApps } from '@gkd-kit/tools';
 import categories from './categories';
 import globalGroups from './globalGroups';
 
-
 export default defineGkdSubscription({
   id: 1233,
   name: '自用',
