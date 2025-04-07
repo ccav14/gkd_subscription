@@ -25,7 +25,7 @@ export default defineGkdApp({
           ],
         },
         {
-           key: 2，
+           key:2,
             name: '雷签到',
             rules: [
             {
