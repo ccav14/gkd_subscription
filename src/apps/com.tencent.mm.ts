@@ -3,39 +3,36 @@ import { defineGkdApp } from '@gkd-kit/define';
 export default defineGkdApp({
   id: 'com.tencent.mm',
   name: '微信',
- groups: [
+  groups: [
+    {
+      key: 0,
+      name: '瑞羚厚德签到',
+      rules: [
         {
-        	key: 0,
-	        name: '瑞羚厚德签到',
-	         rules: [
-            {
-              matches: '[text="立即签到"][visibleToUser=true]',
-              activityIds: ['.plugin.appbrand.ui.AppBrandUI00']
-            },
-          ],
-        },
-        {
-           key: 1,
-	         name: '白签到',
-             rules: [
-            {
-              matches: '[text="立即签到"][visibleToUser=true]',
-              activityIds: ['.plugin.webview.ui.tools.MMWebViewUI']
-            },
-          ],
-        },
-        {
-           key:2,
-            name: '雷签到',
-            rules: [
-            {
-              matches: '[text="点击签到"][visibleToUser=true]',
-              activityIds: ['.plugin.webview.ui.tools.MMWebViewUI']
-            },
-          ],
+          matches: '[text="立即签到"][visibleToUser=true]',
+          activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
         },
       ],
-    });
-
-            
-
+    },
+    {
+      key: 1,
+      name: '白签到',
+      rules: [
+        {
+          matches: '[text="立即签到"][visibleToUser=true]',
+          activityIds: ['.plugin.webview.ui.tools.MMWebViewUI'],
+        },
+      ],
+    },
+    {
+      key: 2,
+      name: '雷签到',
+      rules: [
+        {
+          matches: '[text="点击签到"][visibleToUser=true]',
+          activityIds: ['.plugin.webview.ui.tools.MMWebViewUI'],
+        },
+      ],
+    },
+  ],
+});
