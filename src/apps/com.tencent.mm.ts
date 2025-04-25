@@ -34,5 +34,19 @@ export default defineGkdApp({
         },
       ],
     },
+     {
+      key: 4,
+      name: '瑞羚签到2',
+      rules: [
+        {
+          matches: 'Button[text="立即签到"][clickable=true][visibleToUser=true]',
+          activityIds: ['.plugin.webview.ui.tools.MMWebViewUI'],
+        },
+      ],
+    },
   ],
 });
+
+
+
+            'Button[text^="查看"][clickable=true][visibleToUser=true]',
