@@ -49,4 +49,3 @@ export default defineGkdApp({
 
 
 
-            'Button[text^="查看"][clickable=true][visibleToUser=true]',
