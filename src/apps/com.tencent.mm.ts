@@ -11,7 +11,6 @@ export default defineGkdApp({
         {
           activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
           matches: '[text="立即签到"][visibleToUser=true]',
-          
         },
       ],
     },
@@ -22,7 +21,6 @@ export default defineGkdApp({
         {
           activityIds: ['.plugin.webview.ui.tools.MMWebViewUI'],
           matches: '[text="立即签到"][visibleToUser=true]',
-        
         },
       ],
     },
