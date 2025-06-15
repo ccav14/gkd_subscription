@@ -9,8 +9,9 @@ export default defineGkdApp({
       name: '瑞羚厚德签到',
       rules: [
         {
-          matches: '[text="立即签到"][visibleToUser=true]',
           activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
+          matches: '[text="立即签到"][visibleToUser=true]',
+          
         },
       ],
     },
@@ -19,8 +20,9 @@ export default defineGkdApp({
       name: '白签到',
       rules: [
         {
-          matches: '[text="立即签到"][visibleToUser=true]',
           activityIds: ['.plugin.webview.ui.tools.MMWebViewUI'],
+          matches: '[text="立即签到"][visibleToUser=true]',
+        
         },
       ],
     },
@@ -29,8 +31,8 @@ export default defineGkdApp({
       name: '雷签到',
       rules: [
         {
-          matches: '[text="点击签到"][visibleToUser=true]',
           activityIds: ['.plugin.webview.ui.tools.MMWebViewUI'],
+          matches: '[text="点击签到"][visibleToUser=true]',
         },
       ],
     },
