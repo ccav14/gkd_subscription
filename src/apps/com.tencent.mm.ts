@@ -34,7 +34,7 @@ export default defineGkdApp({
         },
       ],
     },
-     {
+    {
       key: 3,
       name: '朱签到',
       rules: [
