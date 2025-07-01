@@ -34,6 +34,16 @@ export default defineGkdApp({
         },
       ],
     },
+     {
+      key: 3,
+      name: '朱签到',
+      rules: [
+        {
+          activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
+          matches: '[text="点击签到"][visibleToUser=true]',
+        },
+      ],
+    },
     {
       key: 4,
       name: '瑞羚签到2',
