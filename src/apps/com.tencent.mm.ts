@@ -46,12 +46,12 @@ export default defineGkdApp({
     },
     {
       key: 4,
-      name: '瑞羚签到2',
+      name: '朱签到2',
       rules: [
         {
           matches:
-            'Button[text="立即签到"][clickable=true][visibleToUser=true]',
-          activityIds: ['.plugin.webview.ui.tools.MMWebViewUI'],
+            'Button[text="点击签到"][clickable=true][visibleToUser=true]',
+          activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
         },
       ],
     },
