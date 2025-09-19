@@ -55,5 +55,16 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 5,
+      name: '远方领券',
+      rules: [
+        {
+          matches:
+            activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
+          matches: '[text="立即领取"][visibleToUser=true]',
+        },
+      ],
+    },
   ],
 });
