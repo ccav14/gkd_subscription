@@ -61,7 +61,7 @@ export default defineGkdApp({
       rules: [
         {
           activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
-          matches: '[text="立即领取"][visibleToUser=true]',
+          matches: '[text="立即领取(176s过期)"][visibleToUser=true]',
         },
       ],
     },
