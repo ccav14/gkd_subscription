@@ -57,7 +57,37 @@ export default defineGkdApp({
     },
     {
       key: 5,
-      name: '远方领券',
+      name: '远方领券179',
+      rules: [
+        {
+          activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
+          matches: '[text="立即领取(179s过期)"][visibleToUser=true]',
+        },
+      ],
+    },
+    {
+      key: 5,
+      name: '远方领券178',
+      rules: [
+        {
+          activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
+          matches: '[text="立即领取(178s过期)"][visibleToUser=true]',
+        },
+      ],
+    },
+    {
+      key: 5,
+      name: '远方领券177',
+      rules: [
+        {
+          activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
+          matches: '[text="立即领取(177s过期)"][visibleToUser=true]',
+        },
+      ],
+    },
+    {
+      key: 5,
+      name: '远方领券179',
       rules: [
         {
           activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
