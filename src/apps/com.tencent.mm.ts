@@ -66,7 +66,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 5,
+      key: 6,
       name: '远方领券178',
       rules: [
         {
@@ -76,7 +76,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 5,
+      key: 7,
       name: '远方领券177',
       rules: [
         {
@@ -86,7 +86,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 5,
+      key: 8,
       name: '远方领券176',
       rules: [
         {
