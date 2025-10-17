@@ -87,7 +87,7 @@ export default defineGkdApp({
     },
     {
       key: 5,
-      name: '远方领券179',
+      name: '远方领券176',
       rules: [
         {
           activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
