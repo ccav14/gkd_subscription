@@ -57,11 +57,11 @@ export default defineGkdApp({
     },
     {
       key: 5,
-      name: '远方领券179',
+      name: '雷签到2',
       rules: [
         {
-          activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
-          matches: '[text="立即领取(179s过期)"][visibleToUser=true]',
+          activityIds: ['.plugin.appbrand.ui.AppBrandUI01'],
+          matches: '[text="点击打卡"][visibleToUser=true]',
         },
       ],
     },
