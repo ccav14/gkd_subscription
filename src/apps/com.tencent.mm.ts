@@ -86,8 +86,10 @@ export 默认 defineGkdApp({
       ],
     },
     {
-      key: 8,
-      name: '雷签到41',
+      // 注意：key 8 重复了，我保留了您的 key 8，并添加了逗号。
+      // 建议将第二个 key 改为 key: 9 或更高的数字以避免重复。
+      key: 8, 
+      name: '雷签到41-1', // 重命名以区分
       enable:false,
        rules: [
         {
@@ -95,10 +97,10 @@ export 默认 defineGkdApp({
           matches: '[text="立即签到"][className="android.widget.Button"]',
         },
       ],
-        },
+    }, // <--- 修正 1: 确保逗号存在
     {
-      key: 8,
-      name: '雷签到41',
+      key: 9, // <--- 建议改为 9，避免 key 重复
+      name: '雷签到41-2', // 重命名以区分
       enable:false,
        rules: [
         {
@@ -106,8 +108,6 @@ export 默认 defineGkdApp({
           matches: '[className="android.widget.Button"][text="立即签到"][visibleToUser=true]',
         },
       ],
-        },
-    
-      ],
     },
-);
+  ], // <--- 修正 2: 移除了多余的 ']' 和 '}'
+});
