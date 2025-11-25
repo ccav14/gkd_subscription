@@ -77,22 +77,37 @@ export default defineGkdApp({
     },
     {
       key: 7,
-      name: '远方领券177',
+      name: '雷签到4',
       rules: [
         {
-          activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
-          matches: '[text="立即领取(177s过期)"][visibleToUser=true]',
+          activityIds: ['.plugin.appbrand.ui.AppBrandUI01'],
+          matches: '[text="立即签到"][visibleToUser=true]',
         },
       ],
     },
     {
       key: 8,
-      name: '远方领券176',
-      rules: [
+      name: '雷签到41',
+      enable:false,
+       rules: [
         {
-          activityIds: ['.plugin.appbrand.ui.AppBrandUI00'],
-          matches: '[text="立即领取(176s过期)"][visibleToUser=true]',
+          activityIds: ['.plugin.appbrand.ui.AppBrandUI01'],
+          matches: '[text="立即签到"][className="android.widget.Button"]',
         },
+      ],
+        },
+    {
+      key: 8,
+      name: '雷签到41',
+      enable:false,
+       rules: [
+        {
+          activityIds: ['.plugin.appbrand.ui.AppBrandUI01'],
+          matches: '[className="android.widget.Button"][text="立即签到"][visibleToUser=true]',
+        },
+      ],
+        },
+    
       ],
     },
   ],
