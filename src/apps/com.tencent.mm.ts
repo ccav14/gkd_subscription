@@ -88,10 +88,10 @@ export default defineGkdApp({
     {
       // 注意：key 8 重复了，我保留了您的 key 8，并添加了逗号。
       // 建议将第二个 key 改为 key: 9 或更高的数字以避免重复。
-      key: 8, 
+      key: 8,
       name: '雷签到41-1', // 重命名以区分
-      enable:false,
-       rules: [
+      enable: false,
+      rules: [
         {
           activityIds: ['.plugin.appbrand.ui.AppBrandUI01'],
           matches: '[text="立即签到"][name="android.widget.Button"]',
@@ -101,11 +101,12 @@ export default defineGkdApp({
     {
       key: 9, // <--- 建议改为 9，避免 key 重复
       name: '雷签到41-2', // 重命名以区分
-      enable:false,
-       rules: [
+      enable: false,
+      rules: [
         {
           activityIds: ['.plugin.appbrand.ui.AppBrandUI01'],
-          matches: '[name="android.widget.Button"][text="立即签到"][visibleToUser=true]',
+          matches:
+            '[name="android.widget.Button"][text="立即签到"][visibleToUser=true]',
         },
       ],
     },
