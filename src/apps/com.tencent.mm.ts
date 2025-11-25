@@ -94,7 +94,7 @@ export default defineGkdApp({
        rules: [
         {
           activityIds: ['.plugin.appbrand.ui.AppBrandUI01'],
-          matches: '[text="立即签到"][className="android.widget.Button"]',
+          matches: '[text="立即签到"][name="android.widget.Button"]',
         },
       ],
     }, // <--- 修正 1: 确保逗号存在
@@ -105,7 +105,7 @@ export default defineGkdApp({
        rules: [
         {
           activityIds: ['.plugin.appbrand.ui.AppBrandUI01'],
-          matches: '[className="android.widget.Button"][text="立即签到"][visibleToUser=true]',
+          matches: '[name="android.widget.Button"][text="立即签到"][visibleToUser=true]',
         },
       ],
     },
