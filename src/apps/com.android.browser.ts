@@ -19,7 +19,8 @@ export default defineGkdApp({
       name: '去观看',
       rules: [
         {
-          matches: '[text="去观看"][name="android.widget.TextView"][visibleToUser=true]',
+          matches:
+            '[text="去观看"][name="android.widget.TextView"][visibleToUser=true]',
         },
       ],
     },
