@@ -11,7 +11,7 @@ export default defineGkdApp({
         {
           activityIds: ['.BrowserActivity'],
           matches: '[text="立即签到"][visibleToUser=true]',
-        }，
+        },
       ],
     },
     {
@@ -22,6 +22,6 @@ export default defineGkdApp({
           matches: '[text="去观看"][visibleToUser=true]',
         },
       ],
-    }，
+    },
   ],
 });
