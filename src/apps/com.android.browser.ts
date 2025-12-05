@@ -10,7 +10,7 @@ export default defineGkdApp({
       enable: false,
       rules: [
         {
-          matches: '[text="去观看"][visibleToUser=true]',
+          matches: '[text="立即签到"][visibleToUser=true]',
         },
       ],
     },
@@ -21,7 +21,7 @@ export default defineGkdApp({
       rules: [
         {
           matches:
-            '[text="去观看"][name="android.widget.TextView"][visibleToUser=true]',
+            '[text="立即签到"][name="android.widget.TextView"][visibleToUser=true]',
         },
       ],
     },
