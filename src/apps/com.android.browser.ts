@@ -9,8 +9,8 @@ export default defineGkdApp({
       name: '瑞羚签到',
       rules: [
         {
-          matches: '[text="立即签到"][visibleToUser=true]',
-          activityIds: ['.BrowserActivity'],
+          matches: '[text="立即签到"][name="android.widget.TextView"][visibleToUser=true]',
+       
         },
       ],
     },
