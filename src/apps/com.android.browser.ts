@@ -15,9 +15,9 @@ export default defineGkdApp({
         },
       ],
     },
- 
+   
     {
-      key: 1，
+      key: 1， 
       name: '去观看',
       rules: [
         {
