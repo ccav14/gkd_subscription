@@ -19,7 +19,7 @@ export default defineGkdApp({
       name: '去观看',
       rules: [
         {
-          matches: '[text="去观看"][visibleToUser=true]',
+          matches: '[text="进入直播"][visibleToUser=true]',
         },
       ],
     },
