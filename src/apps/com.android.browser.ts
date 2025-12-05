@@ -10,15 +10,14 @@ export default defineGkdApp({
       enable: false,
       rules: [
         {
-          matches:
-            '[text="去观看"][visibleToUser=true]',
+          matches: '[text="去观看"][visibleToUser=true]',
         },
       ],
     },
     {
       key: 1,
       name: '瑞羚签到2',
-      enable: false,      
+      enable: false,
       rules: [
         {
           matches:
