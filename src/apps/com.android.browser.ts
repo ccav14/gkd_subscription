@@ -1,18 +1,30 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
-  id: 'com.android.browser',
-  name: '浏览器',
-  groups: [
+  id: 'com.android.browser',
+  name: '浏览器',
+  groups: [
+    {
+      key: 0,
+      name: '瑞羚签到',
+      rules: [
+        {
+         
+          activityIds: ['.BrowserActivity'],
+          matches: '[text="立即签到"][visibleToUser=true]',
+        },
+      ],
+    },
+ 
     {
-      key: 0,
-      name: '瑞羚签到',
+      key: 1，
+      name: '去观看',
       rules: [
         {
-          activityIds: ['.BrowserActivity'],
-          matches: '[text="立即签到"][visibleToUser=true]',
+         
+          matches: '[text="去观看"][visibleToUser=true]',
         },
       ],
     },
-  ],
+  ],
 });
