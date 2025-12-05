@@ -7,9 +7,8 @@ export default defineGkdApp({
     {
       key: 0,
       name: '瑞羚签到',
-            rules: [
+      rules: [
         {
-        
           matches: '[text="立即签到"][visibleToUser=true]',
         },
       ],
