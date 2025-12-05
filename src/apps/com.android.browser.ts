@@ -10,6 +10,7 @@ export default defineGkdApp({
       rules: [
         {
           matches: '[text="立即签到"][visibleToUser=true]',
+          activityIds: ['.BrowserActivity'],
         },
       ],
     },
