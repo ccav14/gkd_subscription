@@ -112,11 +112,10 @@ export default defineGkdApp({
       key: 10, 
       name: '雷签到41-3',
       enable: false,
+      enableTime: '1900-2100',
       rules: [
         {
-            enableTime: '1900-2100',
           matches:'[name="android.widget.Button"][text="立即签到"][visibleToUser=true]',
-         
           },
       ],
         
