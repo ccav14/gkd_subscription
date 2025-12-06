@@ -114,10 +114,9 @@ export default defineGkdApp({
       enable: false,
       rules: [
         {
-            matches:'[name="android.widget.Button"][text="立即签到"][visibleToUser=true]',
-          time: {
-            start: '19:50',
-            end: '21:00',
+            enableTime: '1900-2100',
+          matches:'[name="android.widget.Button"][text="立即签到"][visibleToUser=true]',
+         
           },
         },
       ],
