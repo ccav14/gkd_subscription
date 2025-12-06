@@ -17,11 +17,21 @@ export default defineGkdApp({
     {
       key: 1,
       name: '瑞羚签到2',
-      enable: false,
       rules: [
         {
           matches:
             '[text="立即签到"][name="android.widget.TextView"][visibleToUser=true]',
+        },
+      ],
+    },
+    {
+      key: 2,
+      name: '进入直播',
+      enable: false,
+      rules: [
+        {
+          matches:
+            '[text="进入直播"][name="android.widget.TextView"][visibleToUser=true]',
         },
       ],
     },
