@@ -98,8 +98,8 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 9，
-      name: '雷签到41-2', 
+      key: 9,
+      name: '雷签到41-2',
       enable: false,
       rules: [
         {
@@ -110,7 +110,7 @@ export default defineGkdApp({
     },
     {
       key: 10, 
-      name: '雷签到41-3', 
+      name: '雷签到41-3',
       enable: false,
       rules: [
         {
