@@ -86,7 +86,6 @@ export default defineGkdApp({
       ],
     },
     {
-      
       key: 8,
       name: '雷签到41-1', // 重命名以区分
       enable: false,
@@ -104,21 +103,21 @@ export default defineGkdApp({
       rules: [
         {
           activityIds: ['.plugin.appbrand.ui.AppBrandUI01'],
-          matches:'[name="android.widget.Button"][text="立即签到"][visibleToUser=true]',
+          matches:
+            '[name="android.widget.Button"][text="立即签到"][visibleToUser=true]',
         },
       ],
     },
     {
-      key: 10, 
+      key: 10,
       name: '雷签到41-3',
       enable: false,
       rules: [
         {
-          matches:'[name="android.widget.Button"][text="立即签到"][visibleToUser=true]',
-          },
-      ],
-        
+          matches:
+            '[name="android.widget.Button"][text="立即签到"][visibleToUser=true]',
         },
       ],
     },
-  );
+  ],
+});
