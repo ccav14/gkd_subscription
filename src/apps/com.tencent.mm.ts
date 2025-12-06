@@ -1,6 +1,6 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
-export default defineGkdApp({
+export 默认 defineGkdApp({
   id: 'com.tencent.mm',
   name: '微信',
   groups: [
@@ -118,8 +118,9 @@ export default defineGkdApp({
           matches:'[name="android.widget.Button"][text="立即签到"][visibleToUser=true]',
          
           },
+      ],
+        
         },
       ],
     },
-  ], 
-});
+  );
