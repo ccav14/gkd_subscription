@@ -96,9 +96,9 @@ export default defineGkdApp({
           matches: '[text="立即签到"][name="android.widget.Button"]',
         },
       ],
-    }，
+    },
     {
-      key: 9, 
+      key: 9，
       name: '雷签到41-2', 
       enable: false,
       rules: [
