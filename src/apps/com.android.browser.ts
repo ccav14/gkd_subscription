@@ -30,7 +30,7 @@ export default defineGkdApp({
       enable: false,
       rules: [
         {
-           activityIds: ['com.android.browser.BrowserActivity'],
+          activityIds: ['com.android.browser.BrowserActivity'],
           matches:
             '[text="进入直播"][name="android.widget.TextView"][visibleToUser=true]',
         },
