@@ -110,7 +110,7 @@ export default defineGkdApp({
         },
       ],
     },
-     {
+    {
       key: 10,
       name: '远方领券',
       rules: [
