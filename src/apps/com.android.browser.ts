@@ -36,5 +36,17 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 3,
+      name: '瑞羚签到3',
+      enable: false,
+      rules: [
+        {
+          activityIds: ['com.android.browser.BrowserActivity'],
+          matches:
+            '[text="2:57 立即签到"][name="android.widget.TextView"][visibleToUser=true]',
+        },
+      ],
+    },
   ],
 });
