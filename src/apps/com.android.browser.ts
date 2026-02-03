@@ -28,8 +28,7 @@ export default defineGkdApp({
     {
       key: 2,
       name: '进入直播',
-      enable: true,
-      rules: [
+         rules: [
         {
           activityIds: ['com.android.browser.BrowserActivity'],
           matches:
@@ -40,7 +39,6 @@ export default defineGkdApp({
     {
       key: 3,
       name: '瑞羚签到3',
-      enable: ture,
       rules: [
         {
           activityIds: ['com.android.browser.BrowserActivity'],
