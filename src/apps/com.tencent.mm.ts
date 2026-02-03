@@ -117,7 +117,7 @@ export default defineGkdApp({
         {
           matches: '[text$="立即领取"][visibleToUser=true]',
         },
-      ]，
+      ],
     },
   ], // <--- 修正 2: 移除了多余的 ']' 和 '}'
 });
