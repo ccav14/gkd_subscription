@@ -17,17 +17,18 @@ export default defineGkdApp({
     {
       key: 1,
       name: '瑞羚签到2',
+      enable: false,      
       rules: [
         {
           matches:
-            '[text="立即签到"][name="android.widget.TextView"][visibleToUser=true]',
+            '[text*="立即签到"][name="android.widget.TextView"][visibleToUser=true]',
         },
       ],
     },
     {
       key: 2,
       name: '进入直播',
-      enable: false,
+      enable: true,
       rules: [
         {
           activityIds: ['com.android.browser.BrowserActivity'],
@@ -39,12 +40,12 @@ export default defineGkdApp({
     {
       key: 3,
       name: '瑞羚签到3',
-      enable: false,
+      enable: ture,
       rules: [
         {
           activityIds: ['com.android.browser.BrowserActivity'],
           matches:
-            '[text="2:57 立即签到"][name="android.widget.TextView"][visibleToUser=true]',
+            '[text$="立即签到"][name="android.widget.TextView"][visibleToUser=true]',
         },
       ],
     },
