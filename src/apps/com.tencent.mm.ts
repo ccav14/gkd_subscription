@@ -62,9 +62,9 @@ export default defineGkdApp({
         {
           activityIds: ['.plugin.appbrand.ui.AppBrandUI01'],
           matches: '[text="点击打卡"][visibleToUser=true]',
-        },
-      ]，
-    }，
+        }，
+      ],
+    },
     {
       key: 6,
       name: '雷签到3',
@@ -116,8 +116,8 @@ export default defineGkdApp({
       rules: [
         {
           matches: '[text$="立即领取"][visibleToUser=true]',
-        }，
-      ]，
+        },
+      ],
     },
   ], // <--- 修正 2: 移除了多余的 ']' 和 '}'
 });
