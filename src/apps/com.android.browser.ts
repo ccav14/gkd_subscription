@@ -17,7 +17,7 @@ export default defineGkdApp({
     {
       key: 1,
       name: '瑞羚签到2',
-      enable: false,      
+      enable: false,
       rules: [
         {
           matches:
@@ -28,7 +28,7 @@ export default defineGkdApp({
     {
       key: 2,
       name: '进入直播',
-         rules: [
+      rules: [
         {
           activityIds: ['com.android.browser.BrowserActivity'],
           matches:
