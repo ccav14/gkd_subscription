@@ -115,7 +115,7 @@ export default defineGkdApp({
       name: '远方领券',
       rules: [
         {
-          matches: '[text$="立即领取"][visibleToUser=true]',
+          matches: '[text^="立即领取"][visibleToUser=true]',
         },
       ],
     },
