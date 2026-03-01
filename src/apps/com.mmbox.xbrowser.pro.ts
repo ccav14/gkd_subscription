@@ -27,7 +27,7 @@ export default defineGkdApp({
     {
       key: 2,
       name: '进入直播',
-     rules: [
+      rules: [
         {
           activityIds: ['com.mmbox.xbrowser.pro.BrowserActivity'],
           matches:
