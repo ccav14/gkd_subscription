@@ -20,15 +20,14 @@ export default defineGkdApp({
       rules: [
         {
           matches:
-            '[text="立即签到"][name="android.widget.TextView"][visibleToUser=true]',
+            '[text$="立即签到"][name="android.widget.TextView"][visibleToUser=true]',
         },
       ],
     },
     {
       key: 2,
       name: '进入直播',
-      enable: false,
-      rules: [
+     rules: [
         {
           activityIds: ['com.mmbox.xbrowser.pro.BrowserActivity'],
           matches:
