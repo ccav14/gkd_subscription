@@ -2,7 +2,7 @@ import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
   id: 'com.mmbox.xbrowser',
-   name: 'X浏览器',
+  name: 'X浏览器',
   groups: [
     {
       key: 0,
