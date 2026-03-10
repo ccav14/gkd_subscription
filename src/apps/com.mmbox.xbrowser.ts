@@ -29,7 +29,7 @@ export default defineGkdApp({
       name: '进入直播',
       rules: [
         {
-          activityIds: ['com.mmbox.xbrowser.pro.BrowserActivity'],
+          activityIds: ['com.mmbox.xbrowser.BrowserActivity'],
           matches:
             '[text="进入直播"][name="android.widget.TextView"][visibleToUser=true]',
         },
