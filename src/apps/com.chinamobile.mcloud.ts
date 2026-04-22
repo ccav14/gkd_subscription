@@ -9,7 +9,7 @@ export default defineGkdApp({
       name: '自动签到',
       desc: '自动点击继续赚云朵-领云朵-知道啦',
       enable: true,
-          rules: [
+      rules: [
         {
           key: 0,
           name: '1.点击【继续赚云朵】',
