@@ -1,4 +1,4 @@
-import { defineAppConfig } from '@gkd-kit/define';
+import { defineGkdApp  } from '@gkd-kit/define';
 
 export default defineAppConfig({
   id: 'com.chinamobile.mcloud',
