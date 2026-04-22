@@ -25,7 +25,7 @@ export default defineGkdApp({
           // 关键点：点掉第一个弹窗后，H5 可能有刷新或动画，加 1000ms 延迟
           actionDelay: 1000,
           matches:
-            '[text="领云朵"][name="android.widget.TextView"][visibleToUser=true]',
+            '[text="领云朵"][visibleToUser=true]',
         },
         {
           preKeys: [1],
