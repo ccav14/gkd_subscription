@@ -22,7 +22,7 @@ export default defineGkdApp({
           key: 1,
           name: '2.点击【领云朵】',
           // 关键点：点掉第一个弹窗后，H5 可能有刷新或动画，加 1000ms 延迟
-            matches: '[text="领云朵"][visibleToUser=true]',
+          matches: '[text="领云朵"][visibleToUser=true]',
         },
         {
           key: 2,
