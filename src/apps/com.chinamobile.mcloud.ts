@@ -1,6 +1,6 @@
-import { defineGkdApp  } from '@gkd-kit/define';
+import { defineGkdApp } from '@gkd-kit/define';
 
-export default defineAppConfig({
+export default defineGkdApp({
   id: 'com.chinamobile.mcloud',
   name: '中国移动云盘',
   groups: [
