@@ -19,15 +19,12 @@ export default defineGkdApp({
             '[text="继续赚云朵"][name="android.widget.TextView"][visibleToUser=true]',
         },
         {
-          preKeys: [0],
           key: 1,
           name: '2.点击【领云朵】',
           // 关键点：点掉第一个弹窗后，H5 可能有刷新或动画，加 1000ms 延迟
-          actionDelay: 1000,
-          matches: '[text="领云朵"][visibleToUser=true]',
+            matches: '[text="领云朵"][visibleToUser=true]',
         },
         {
-          preKeys: [1],
           key: 2,
           name: '3.点击【知道啦】',
           // 领取成功到弹窗弹出也需要反应时间
