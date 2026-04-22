@@ -17,7 +17,7 @@ export default defineGkdApp({
           name: '1.点击【继续赚云朵】',
           // 刚进页面，加 500ms 延迟等待弹窗稳固
           actionDelay: 500,
-          matches: '[text="继续赚云朵"] << View',
+          matches: '[text="继续赚云朵"][name="android.widget.TextView"][visibleToUser=true]',
         },
         {
           preKeys: [0],
@@ -25,7 +25,7 @@ export default defineGkdApp({
           name: '2.点击【领云朵】',
           // 关键点：点掉第一个弹窗后，H5 可能有刷新或动画，加 1000ms 延迟
           actionDelay: 1000,
-          matches: '[text="领云朵"] << View',
+          matches: '[text="领云朵"][name="android.widget.TextView"][visibleToUser=true]',
         },
         {
           preKeys: [1],
@@ -34,7 +34,7 @@ export default defineGkdApp({
           // 领取成功到弹窗弹出也需要反应时间
           actionDelay: 800,
           actionMaximum: 1,
-          matches: '[text="知道啦"] << View',
+          matches: '[text="知道啦"][name="android.widget.TextView"][visibleToUser=true]',
         },
       ],
     },
