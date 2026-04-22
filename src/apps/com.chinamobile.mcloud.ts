@@ -8,7 +8,7 @@ export default defineGkdApp({
       key: 10,
       name: '自动签到',
       desc: '自动点击继续赚云朵-领云朵-知道啦',
-      enable: true,
+      enable: false,
       rules: [
         {
           key: 0,
@@ -20,7 +20,7 @@ export default defineGkdApp({
         },
         {
           key: 1,
-          name: '2.点击【领云朵】',
+          name: '2.点击【完成任务】',
           // 关键点：点掉第一个弹窗后，H5 可能有刷新或动画，加 1000ms 延迟
           matches: '[text="完成任务"][visibleToUser=true]',
         },
