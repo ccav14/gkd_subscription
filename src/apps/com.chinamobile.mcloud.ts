@@ -9,8 +9,6 @@ export default defineGkdApp({
       name: '自动签到',
       desc: '自动点击继续赚云朵-领云朵-知道啦',
       enable: false,
-      activityIds:
-        'com.chinamobile.mcloud.client.component.web.H5WebviewMainActivity',
       rules: [
         {
           key: 0,
