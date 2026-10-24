@@ -1,7 +1,7 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
-  id: 'com.yqyh.live',
+  id: 'com.yqyb.live',
   name: '我是中医',
   groups: [
     {
